@@ -1,0 +1,33 @@
+venv
+/venv
+venv/*# Virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Output files
+*.csv
+*.xlsx
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env

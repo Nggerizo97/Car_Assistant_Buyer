@@ -1,0 +1,2361 @@
+{
+  "metadata": {
+    "fecha_procesamiento": "2025-06-23T21:15:04.539706",
+    "version": "1.0"
+  },
+  "data": [
+    {
+      "id": "0da94f52c1",
+      "marca": "Kia",
+      "modelo": "Kia EV3",
+      "version": "Light",
+      "precio": 164990000,
+      "segmento": "premium",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Batería 58,3 kWh | Rin: 17\" de aluminio de lujo | ABS (Sistema antibloqueo de freno) | ESC (Sistema de control electrónico de estabilidad) | HAC (Asistente de arranque en pendiente) | VSM (Gestión de estabilidad del vehículo) | DBC (Control de descenso en pendiente) | MCB (Freno de multi colisión) | EPB (Freno de parqueo eléctrico) con función de Auto Hold | TPMS HL (Sistema de monitoreo de presión de llantas) | FCA (Asistente para evitar colisiones frontales en cruces e intersecciones) | LFA (Asistente de seguimiento de carril) | PDW (Sensores de parqueo delanteros y traseros) | LKA (Asistente en abandono de carril) | SCC (Control crucero inteligente) con función Star/Stop | MSLA (Asistente manual de limite de velocidad) | Airbags frontales Airbags de cortina | Airbags laterales Llave inteligente con botón de encendido",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Batería 58,3 kWh",
+          "valor": true
+        },
+        {
+          "nombre": "Rin",
+          "valor": "17\" de aluminio de lujo"
+        },
+        {
+          "nombre": "ABS (Sistema antibloqueo de freno)",
+          "valor": true
+        },
+        {
+          "nombre": "ESC (Sistema de control electrónico de estabilidad)",
+          "valor": true
+        },
+        {
+          "nombre": "HAC (Asistente de arranque en pendiente)",
+          "valor": true
+        },
+        {
+          "nombre": "VSM (Gestión de estabilidad del vehículo)",
+          "valor": true
+        },
+        {
+          "nombre": "DBC (Control de descenso en pendiente)",
+          "valor": true
+        },
+        {
+          "nombre": "MCB (Freno de multi colisión)",
+          "valor": true
+        },
+        {
+          "nombre": "EPB (Freno de parqueo eléctrico) con función de Auto Hold",
+          "valor": true
+        },
+        {
+          "nombre": "TPMS HL (Sistema de monitoreo de presión de llantas)",
+          "valor": true
+        },
+        {
+          "nombre": "FCA (Asistente para evitar colisiones frontales en cruces e intersecciones)",
+          "valor": true
+        },
+        {
+          "nombre": "LFA (Asistente de seguimiento de carril)",
+          "valor": true
+        },
+        {
+          "nombre": "PDW (Sensores de parqueo delanteros y traseros)",
+          "valor": true
+        },
+        {
+          "nombre": "LKA (Asistente en abandono de carril)",
+          "valor": true
+        },
+        {
+          "nombre": "SCC (Control crucero inteligente) con función Star/Stop",
+          "valor": true
+        },
+        {
+          "nombre": "MSLA (Asistente manual de limite de velocidad)",
+          "valor": true
+        },
+        {
+          "nombre": "Airbags frontales Airbags de cortina",
+          "valor": true
+        },
+        {
+          "nombre": "Airbags laterales Llave inteligente con botón de encendido",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/ev3",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:05:57"
+    },
+    {
+      "id": "5526c4817a",
+      "marca": "Kia",
+      "modelo": "New Kia Picanto",
+      "version": "Zenith MT",
+      "precio": 64990000,
+      "segmento": "economico",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Motor 1.25L con 83hp de potencia y 122Nm de torque | Rines 14\" en aluminio | Control de luces automático (Auto light) | Espejos exteriores abatibles eléctricamente con direccionales integradas",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Motor 1.25L con 83hp de potencia y 122Nm de torque",
+          "valor": true
+        },
+        {
+          "nombre": "Rines 14\" en aluminio",
+          "valor": true
+        },
+        {
+          "nombre": "Control de luces automático (Auto light)",
+          "valor": true
+        },
+        {
+          "nombre": "Espejos exteriores abatibles eléctricamente con direccionales integradas",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/picanto",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:06:07"
+    },
+    {
+      "id": "ee562a9e04",
+      "marca": "Kia",
+      "modelo": "Kia Soluto",
+      "version": "Emotion MT",
+      "precio": 69990000,
+      "segmento": "economico",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": "True",
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Motor 1.4L con 94 hp de potencia y 133 Nm de torque | Transmisión mecánica de 5 velocidades | Dirección electro asistida | Rin 14\" de lámina con copa | ABS (Sistema antibloqueo de frenos) | EBD (Distribución electrónica de la fuerza de frenado) | Airbags delanteros para piloto y copiloto | Sistema de anclaje para silla de niños (Isofix) | Cámara de reversa de alta resolución | Eleva vidrios eléctricos delanteros y traseros | Espejos laterales con ajuste eléctrico | Puerto USB y conexión auxiliar | Aire acondicionado | Clúster 2.8\" LCD con computador a abordo | Controles de audio en el volante | Centro de Entretenimiento Easy Smart con pantalla táctil de 9\". AUX & USB & Bluetooth | 4 Parlantes + 2 Tweeters",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Motor 1.4L con 94 hp de potencia y 133 Nm de torque",
+          "valor": true
+        },
+        {
+          "nombre": "Transmisión mecánica de 5 velocidades",
+          "valor": true
+        },
+        {
+          "nombre": "Dirección electro asistida",
+          "valor": true
+        },
+        {
+          "nombre": "Rin 14\" de lámina con copa",
+          "valor": true
+        },
+        {
+          "nombre": "ABS (Sistema antibloqueo de frenos)",
+          "valor": true
+        },
+        {
+          "nombre": "EBD (Distribución electrónica de la fuerza de frenado)",
+          "valor": true
+        },
+        {
+          "nombre": "Airbags delanteros para piloto y copiloto",
+          "valor": true
+        },
+        {
+          "nombre": "Sistema de anclaje para silla de niños (Isofix)",
+          "valor": true
+        },
+        {
+          "nombre": "Cámara de reversa de alta resolución",
+          "valor": true
+        },
+        {
+          "nombre": "Eleva vidrios eléctricos delanteros y traseros",
+          "valor": true
+        },
+        {
+          "nombre": "Espejos laterales con ajuste eléctrico",
+          "valor": true
+        },
+        {
+          "nombre": "Puerto USB y conexión auxiliar",
+          "valor": true
+        },
+        {
+          "nombre": "Aire acondicionado",
+          "valor": true
+        },
+        {
+          "nombre": "Clúster 2.8\" LCD con computador a abordo",
+          "valor": true
+        },
+        {
+          "nombre": "Controles de audio en el volante",
+          "valor": true
+        },
+        {
+          "nombre": "Centro de Entretenimiento Easy Smart con pantalla táctil de 9\". AUX & USB & Bluetooth",
+          "valor": true
+        },
+        {
+          "nombre": "4 Parlantes + 2 Tweeters",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/carro-soluto",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:06:20"
+    },
+    {
+      "id": "5b91a8e3fd",
+      "marca": "Kia",
+      "modelo": "The all-new K3 Sedán",
+      "version": "Vibrant AT",
+      "precio": 86990000,
+      "segmento": "medio",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": "True",
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Transmisión automática de 6 velocidades | Rines de lujo de 16\"",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Transmisión automática de 6 velocidades",
+          "valor": true
+        },
+        {
+          "nombre": "Rines de lujo de 16\"",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/k3",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:06:31"
+    },
+    {
+      "id": "b2e4bd9bd2",
+      "marca": "Kia",
+      "modelo": "Kia K4",
+      "version": "GT Line",
+      "precio": 134990000,
+      "segmento": "premium",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": "True",
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Motor 2.0 MPI con 150hp de potencia y 192NM de torque | Transmisión automática de 6 velocidades | Baúl de 508 litros | Faros delanteros LED tipo “Small cub” | Faros traseros con distintivo LED | Manija de puerta trasera exterior vertical. | Diseño de bómper deportivo | Rin de lujo bi-tono de 18\" con corte tipo diamante | Bómper trasero deportivo | Sunroof “Wide” | Volante deportivo multifuncional | Multipantalla integrada (12.3\"+5\"+12.3\") | Botón de encedido | Cargador inalámbrico | Iluminación ambiental LED multicolor | Tapicería en cuero bi-tono | Sillas abatibles 60:40 | Modos de manejo: Normal, Eco y Sport | 6 Airbags | ABS + EBD + MCB | ESC (Control electrónico de estabilidad) | TCS (Sistema de control de tracción) | HAC (Asistente de arranque en pendiente) | EPB + AutHold | Autolight + Sensor de lluvia | FCA (Asistente para evitar colisiones frontales) | SCC (Control crucero inteligente con función Star/Stop) | BCA (Prevención de colisión en punto ciego) | LFA (Asistente de seguimiento de carril) | LKA (Asistente de mantenimiento de carril) | PDW (Sensores de parqueo delanteros y traseros) | TPMS (Sistema de monitoreo de presión de llantas) | ROA (Alerta de ocupante en asiento trasero)",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Motor 2.0 MPI con 150hp de potencia y 192NM de torque",
+          "valor": true
+        },
+        {
+          "nombre": "Transmisión automática de 6 velocidades",
+          "valor": true
+        },
+        {
+          "nombre": "Baúl de 508 litros",
+          "valor": true
+        },
+        {
+          "nombre": "Faros delanteros LED tipo “Small cub”",
+          "valor": true
+        },
+        {
+          "nombre": "Faros traseros con distintivo LED",
+          "valor": true
+        },
+        {
+          "nombre": "Manija de puerta trasera exterior vertical.",
+          "valor": true
+        },
+        {
+          "nombre": "Diseño de bómper deportivo",
+          "valor": true
+        },
+        {
+          "nombre": "Rin de lujo bi-tono de 18\" con corte tipo diamante",
+          "valor": true
+        },
+        {
+          "nombre": "Bómper trasero deportivo",
+          "valor": true
+        },
+        {
+          "nombre": "Sunroof “Wide”",
+          "valor": true
+        },
+        {
+          "nombre": "Volante deportivo multifuncional",
+          "valor": true
+        },
+        {
+          "nombre": "Multipantalla integrada (12.3\"+5\"+12.3\")",
+          "valor": true
+        },
+        {
+          "nombre": "Botón de encedido",
+          "valor": true
+        },
+        {
+          "nombre": "Cargador inalámbrico",
+          "valor": true
+        },
+        {
+          "nombre": "Iluminación ambiental LED multicolor",
+          "valor": true
+        },
+        {
+          "nombre": "Tapicería en cuero bi-tono",
+          "valor": true
+        },
+        {
+          "nombre": "Sillas abatibles 60",
+          "valor": "40"
+        },
+        {
+          "nombre": "Modos de manejo",
+          "valor": "Normal, Eco y Sport"
+        },
+        {
+          "nombre": "6 Airbags",
+          "valor": true
+        },
+        {
+          "nombre": "ABS + EBD + MCB",
+          "valor": true
+        },
+        {
+          "nombre": "ESC (Control electrónico de estabilidad)",
+          "valor": true
+        },
+        {
+          "nombre": "TCS (Sistema de control de tracción)",
+          "valor": true
+        },
+        {
+          "nombre": "HAC (Asistente de arranque en pendiente)",
+          "valor": true
+        },
+        {
+          "nombre": "EPB + AutHold",
+          "valor": true
+        },
+        {
+          "nombre": "Autolight + Sensor de lluvia",
+          "valor": true
+        },
+        {
+          "nombre": "FCA (Asistente para evitar colisiones frontales)",
+          "valor": true
+        },
+        {
+          "nombre": "SCC (Control crucero inteligente con función Star/Stop)",
+          "valor": true
+        },
+        {
+          "nombre": "BCA (Prevención de colisión en punto ciego)",
+          "valor": true
+        },
+        {
+          "nombre": "LFA (Asistente de seguimiento de carril)",
+          "valor": true
+        },
+        {
+          "nombre": "LKA (Asistente de mantenimiento de carril)",
+          "valor": true
+        },
+        {
+          "nombre": "PDW (Sensores de parqueo delanteros y traseros)",
+          "valor": true
+        },
+        {
+          "nombre": "TPMS (Sistema de monitoreo de presión de llantas)",
+          "valor": true
+        },
+        {
+          "nombre": "ROA (Alerta de ocupante en asiento trasero)",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/k4",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:06:44"
+    },
+    {
+      "id": "82fced3000",
+      "marca": "Kia",
+      "modelo": "The all-new Kia K3 Cross",
+      "version": "Zenith AT",
+      "precio": 95990000,
+      "segmento": "medio",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Apertura de puertas con llave inteligente con Botón de encendido | Cargador Inalámbrico | Aire acondicionado Automático con climatizador de bi-zona | Faros delanteros MFR LED con función de giro | Sensores delanteros y traseros | Salidas de aire segunda fila con puestos USB tipo C x2 | Volante y palanca en cuero | Rines 16\" Aluminio de Lujo Bitono (205/50R16) | Parasoles con espejo de vanidad e iluminación | Cluster de supervisión de 4,2‘’ con control de iluminación | 4 Parlantes | Radio con Pantalla táctil de 10,25“ Con conexión Inalámbrica | Luces de conducción diurna (DRL) LED | Luces de posición LED | Combinación de Luces Traseras LED | Espejos retrovisores exteriores con ajuste eléctrico, calefactables y direccionales integradas | Espejos abatibles eléctricamente",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Apertura de puertas con llave inteligente con Botón de encendido",
+          "valor": true
+        },
+        {
+          "nombre": "Cargador Inalámbrico",
+          "valor": true
+        },
+        {
+          "nombre": "Aire acondicionado Automático con climatizador de bi-zona",
+          "valor": true
+        },
+        {
+          "nombre": "Faros delanteros MFR LED con función de giro",
+          "valor": true
+        },
+        {
+          "nombre": "Sensores delanteros y traseros",
+          "valor": true
+        },
+        {
+          "nombre": "Salidas de aire segunda fila con puestos USB tipo C x2",
+          "valor": true
+        },
+        {
+          "nombre": "Volante y palanca en cuero",
+          "valor": true
+        },
+        {
+          "nombre": "Rines 16\" Aluminio de Lujo Bitono (205/50R16)",
+          "valor": true
+        },
+        {
+          "nombre": "Parasoles con espejo de vanidad e iluminación",
+          "valor": true
+        },
+        {
+          "nombre": "Cluster de supervisión de 4,2‘’ con control de iluminación",
+          "valor": true
+        },
+        {
+          "nombre": "4 Parlantes",
+          "valor": true
+        },
+        {
+          "nombre": "Radio con Pantalla táctil de 10,25“ Con conexión Inalámbrica",
+          "valor": true
+        },
+        {
+          "nombre": "Luces de conducción diurna (DRL) LED",
+          "valor": true
+        },
+        {
+          "nombre": "Luces de posición LED",
+          "valor": true
+        },
+        {
+          "nombre": "Combinación de Luces Traseras LED",
+          "valor": true
+        },
+        {
+          "nombre": "Espejos retrovisores exteriores con ajuste eléctrico, calefactables y direccionales integradas",
+          "valor": true
+        },
+        {
+          "nombre": "Espejos abatibles eléctricamente",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/k3-cross",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:06:54"
+    },
+    {
+      "id": "ef7d463f37",
+      "marca": "Kia",
+      "modelo": "Kia Stonic",
+      "version": "DESIRE MT",
+      "precio": 86990000,
+      "segmento": "medio",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": "True",
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Motor 1.0L Turbo de 99 hp de potencia y 172 Nm de torque | Sistema eléctrico MHEV de 48V | Dirección electro asistida | Transmisión mecánica con embrague eléctrico | Rines 15” de lujo | Sistema Antibloqueo de Frenos (ABS) | TPMS LL (Monitoreo de Presión de Llantas) | Control Electrónico de Estabilidad (ESC) | 6 Airbags (2 Frontales, 2 laterales y 2 de cortina) | Cámara de reversa | Control Automático de Luces | Aire Acondicionado automático | Radio 8” compatible con Car Play y Android Auto | 6 Parlantes | Abatimiento eléctrico de los espejos | Rack de techo tipo puente | Sensores de parqueo traseros",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Motor 1.0L Turbo de 99 hp de potencia y 172 Nm de torque",
+          "valor": true
+        },
+        {
+          "nombre": "Sistema eléctrico MHEV de 48V",
+          "valor": true
+        },
+        {
+          "nombre": "Dirección electro asistida",
+          "valor": true
+        },
+        {
+          "nombre": "Transmisión mecánica con embrague eléctrico",
+          "valor": true
+        },
+        {
+          "nombre": "Rines 15” de lujo",
+          "valor": true
+        },
+        {
+          "nombre": "Sistema Antibloqueo de Frenos (ABS)",
+          "valor": true
+        },
+        {
+          "nombre": "TPMS LL (Monitoreo de Presión de Llantas)",
+          "valor": true
+        },
+        {
+          "nombre": "Control Electrónico de Estabilidad (ESC)",
+          "valor": true
+        },
+        {
+          "nombre": "6 Airbags (2 Frontales, 2 laterales y 2 de cortina)",
+          "valor": true
+        },
+        {
+          "nombre": "Cámara de reversa",
+          "valor": true
+        },
+        {
+          "nombre": "Control Automático de Luces",
+          "valor": true
+        },
+        {
+          "nombre": "Aire Acondicionado automático",
+          "valor": true
+        },
+        {
+          "nombre": "Radio 8” compatible con Car Play y Android Auto",
+          "valor": true
+        },
+        {
+          "nombre": "6 Parlantes",
+          "valor": true
+        },
+        {
+          "nombre": "Abatimiento eléctrico de los espejos",
+          "valor": true
+        },
+        {
+          "nombre": "Rack de techo tipo puente",
+          "valor": true
+        },
+        {
+          "nombre": "Sensores de parqueo traseros",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/hibrido-kia-stonic",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:07:06"
+    },
+    {
+      "id": "31ee4a97ad",
+      "marca": "Kia",
+      "modelo": "Kia Sonet",
+      "version": "Vibrant AT",
+      "precio": 99990000,
+      "segmento": "medio",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": "True",
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Rin 16\" de lujo Bitono | Disco de frenos en todas las ruedas | Dirección asistida eléctricamente | Transmisión IVT de 8 velocidades | Control de descenso en pendiente | Asistente de arranque en pendiente | Llave inteligente con botón de encendido | Vidrios eléctricos delanteros y traseros | Aire acondicionado automático | Centro de Entretenimiento pantalla táctil de 8\" | 6 Parlantes | Espejos retrovisores con ajuste eléctrico y abatimiento electrico | Direccionales integradas en los espejos",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Rin 16\" de lujo Bitono",
+          "valor": true
+        },
+        {
+          "nombre": "Disco de frenos en todas las ruedas",
+          "valor": true
+        },
+        {
+          "nombre": "Dirección asistida eléctricamente",
+          "valor": true
+        },
+        {
+          "nombre": "Transmisión IVT de 8 velocidades",
+          "valor": true
+        },
+        {
+          "nombre": "Control de descenso en pendiente",
+          "valor": true
+        },
+        {
+          "nombre": "Asistente de arranque en pendiente",
+          "valor": true
+        },
+        {
+          "nombre": "Llave inteligente con botón de encendido",
+          "valor": true
+        },
+        {
+          "nombre": "Vidrios eléctricos delanteros y traseros",
+          "valor": true
+        },
+        {
+          "nombre": "Aire acondicionado automático",
+          "valor": true
+        },
+        {
+          "nombre": "Centro de Entretenimiento pantalla táctil de 8\"",
+          "valor": true
+        },
+        {
+          "nombre": "6 Parlantes",
+          "valor": true
+        },
+        {
+          "nombre": "Espejos retrovisores con ajuste eléctrico y abatimiento electrico",
+          "valor": true
+        },
+        {
+          "nombre": "Direccionales integradas en los espejos",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/suv-sonet",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:07:16"
+    },
+    {
+      "id": "17b523fb60",
+      "marca": "Kia",
+      "modelo": "Niro Híbrido",
+      "version": "Vibrant AT",
+      "precio": 149990000,
+      "segmento": "premium",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": "True",
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Motor híbrido (gasolina 1.6L + eléctrico 240V DC) con 139 hp de potencia y 265 Nm de torque | Transmisión DCT de 6 velocidades | Rack de techo | Rines de aluminio 18\" | Luces de proyección frontales y exploradoras en LED | DRL LED | Direccionales en los espejos | Stop LED | Modos de manejo ECO y SPORT | Pantalla táctil de 10,25” | Volante y palanca en cuero | Pantalla multimodo con aire acondicionado digital y multimedia | Botón de encendido | Parasoles con espejo de vanidad e iluminación | Levas de cambio (Paddle shifts) | Sensor de lluvia | Tapicería en tela | 7 airbags (2 delanteros, 2 laterales, 2 cortinasy 1 rodilla) | Sistema Antibloqueo de Frenado (ABS) | Distribución Electrónica de Frenado (EBD) | Control de Estabilidad Electrónica (ESC) | Sistema de Control de Tracción (TCS) | Asistente de Arranque en Pendiente (HAC) | Gobernador de estabilidad del Vehículo (VSM) | Freno de parqueo eléctrico con AUTOHOLD (EPB) | Sensores de reversa | Asistencia de seguimiento de carril (LFA) | Asistente para evitar colisiones frontales (FCA) | Asistente en abandono de carril (LKA) | Asistente de luces altas (HBA) | Asistente de limite de velocidad manual (MSLA) | Monitor de presión de neumáticos (TPMS) | Control crucero",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Motor híbrido (gasolina 1.6L + eléctrico 240V DC) con 139 hp de potencia y 265 Nm de torque",
+          "valor": true
+        },
+        {
+          "nombre": "Transmisión DCT de 6 velocidades",
+          "valor": true
+        },
+        {
+          "nombre": "Rack de techo",
+          "valor": true
+        },
+        {
+          "nombre": "Rines de aluminio 18\"",
+          "valor": true
+        },
+        {
+          "nombre": "Luces de proyección frontales y exploradoras en LED",
+          "valor": true
+        },
+        {
+          "nombre": "DRL LED",
+          "valor": true
+        },
+        {
+          "nombre": "Direccionales en los espejos",
+          "valor": true
+        },
+        {
+          "nombre": "Stop LED",
+          "valor": true
+        },
+        {
+          "nombre": "Modos de manejo ECO y SPORT",
+          "valor": true
+        },
+        {
+          "nombre": "Pantalla táctil de 10,25”",
+          "valor": true
+        },
+        {
+          "nombre": "Volante y palanca en cuero",
+          "valor": true
+        },
+        {
+          "nombre": "Pantalla multimodo con aire acondicionado digital y multimedia",
+          "valor": true
+        },
+        {
+          "nombre": "Botón de encendido",
+          "valor": true
+        },
+        {
+          "nombre": "Parasoles con espejo de vanidad e iluminación",
+          "valor": true
+        },
+        {
+          "nombre": "Levas de cambio (Paddle shifts)",
+          "valor": true
+        },
+        {
+          "nombre": "Sensor de lluvia",
+          "valor": true
+        },
+        {
+          "nombre": "Tapicería en tela",
+          "valor": true
+        },
+        {
+          "nombre": "7 airbags (2 delanteros, 2 laterales, 2 cortinasy 1 rodilla)",
+          "valor": true
+        },
+        {
+          "nombre": "Sistema Antibloqueo de Frenado (ABS)",
+          "valor": true
+        },
+        {
+          "nombre": "Distribución Electrónica de Frenado (EBD)",
+          "valor": true
+        },
+        {
+          "nombre": "Control de Estabilidad Electrónica (ESC)",
+          "valor": true
+        },
+        {
+          "nombre": "Sistema de Control de Tracción (TCS)",
+          "valor": true
+        },
+        {
+          "nombre": "Asistente de Arranque en Pendiente (HAC)",
+          "valor": true
+        },
+        {
+          "nombre": "Gobernador de estabilidad del Vehículo (VSM)",
+          "valor": true
+        },
+        {
+          "nombre": "Freno de parqueo eléctrico con AUTOHOLD (EPB)",
+          "valor": true
+        },
+        {
+          "nombre": "Sensores de reversa",
+          "valor": true
+        },
+        {
+          "nombre": "Asistencia de seguimiento de carril (LFA)",
+          "valor": true
+        },
+        {
+          "nombre": "Asistente para evitar colisiones frontales (FCA)",
+          "valor": true
+        },
+        {
+          "nombre": "Asistente en abandono de carril (LKA)",
+          "valor": true
+        },
+        {
+          "nombre": "Asistente de luces altas (HBA)",
+          "valor": true
+        },
+        {
+          "nombre": "Asistente de limite de velocidad manual (MSLA)",
+          "valor": true
+        },
+        {
+          "nombre": "Monitor de presión de neumáticos (TPMS)",
+          "valor": true
+        },
+        {
+          "nombre": "Control crucero",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/hibrido-niro",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:07:28"
+    },
+    {
+      "id": "010aa74497",
+      "marca": "Kia",
+      "modelo": "Kia Seltos",
+      "version": "Vibrant AT 4x2",
+      "precio": 124990000,
+      "segmento": "premium",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/seltos-2",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:07:40"
+    },
+    {
+      "id": "8e474618f9",
+      "marca": "Kia",
+      "modelo": "The New Kia Sportage",
+      "version": "Vibrant",
+      "precio": 149990000,
+      "segmento": "premium",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": "True",
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Motor 1.6 Turbo con 177 hp de potencia y 265 Nm | Transmisión automática de 8 velocidades con modo manual | Modos de manejo Eco, Normal, Sport, My Drive + Paddle Shifters | Autolight + Sensor de Lluvia | Sunroof panorámico | Exploradoras LED | A/C automático Bi-Zona | Garantía 7 años o 150.000 km lo que ocurra primero",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Motor 1.6 Turbo con 177 hp de potencia y 265 Nm",
+          "valor": true
+        },
+        {
+          "nombre": "Transmisión automática de 8 velocidades con modo manual",
+          "valor": true
+        },
+        {
+          "nombre": "Modos de manejo Eco, Normal, Sport, My Drive + Paddle Shifters",
+          "valor": true
+        },
+        {
+          "nombre": "Autolight + Sensor de Lluvia",
+          "valor": true
+        },
+        {
+          "nombre": "Sunroof panorámico",
+          "valor": true
+        },
+        {
+          "nombre": "Exploradoras LED",
+          "valor": true
+        },
+        {
+          "nombre": "A/C automático Bi-Zona",
+          "valor": true
+        },
+        {
+          "nombre": "Garantía 7 años o 150.000 km lo que ocurra primero",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/suv-sportage",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:07:53"
+    },
+    {
+      "id": "aa7e62c768",
+      "marca": "Kia",
+      "modelo": "New Kia Sorento",
+      "version": "Zenith AT Gasolina",
+      "precio": 212990000,
+      "segmento": "lujo",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Motor 3.5L V6 Smartstream con 268 hp de potencia y 331NM de torque | ABS + EBD + ESC + TCS + HAC + TSA | Rin 19” de lujo Bi-tono | 6 Airbags | Columna de dirección ajustable en altura y profundidad | EPB (Freno electrónico de parqueo) + Auto Hold | Luces delanteras duales LED | Luces de conducción diurna (DRL) LED | Luces de posición LED | Exploradoras LED | Luces traseras LED | Luces diurnas DRL LED | Spoiler trasero con Stop en LED | Control de luces automático (Auto light) | Espejos con ajuste eléctrico, con direccionales, desempañador y abatibles eléctricamente | Techo panorámico con accionamiento eléctrico de un solo toque y anti aprisionamiento | Rack de techo | Skid Plate delantero y trasero | Tapicería en cuero | Asientos de piloto y copiloto con ajuste eléctrico | Sillas abatibles de Segunda fila abatible 60/40 con descansabrazos y portavasos | Tercera fila de asientos abatibles 50/50 con portavasos laterales | Elevavidrios eléctricos delanteros y traseros con Auto Up/Down y antiaprisionamiento | Volante y palanca forrados en cuero | Modos de manejo Comfort, Eco, Sport, Smart | Modos de terreno (Nieve, Tierra, Arena) | Paddle Shifters | Aire acondicionado con climatizador bi-zona y desempañador automático | Aire acondicionado para la segundo y tercera fila | Puerta trasera con apertura eléctrica con sistema Power Tailgate | Parasoles con espejo de vanidad e iluminación | Botón de encendido con llave inteligente | Inmovilizador | Centro de entendimiento de 10.25” con clúster integrado | Conectividad Car Play  y Android Auto | Bluetooth con sistema manos libres | Comando de voz en el volante | 4 parlantes + 2 tweeters | Cargador tipo USB A 3x (1 delantero y 2 traseros ) | Controles de audio en el volante | Espejo interior electro crómico | SSC (Control Crucero Inteligente) | BCW (Sistema de detección de punto ciego) | LFA (Asistente en mantenimiento de carril) | LKA (Asistente de mantenimiento de carril) | TPMS (Sistema monitores de presión de llantas) | FCA (Asistente para evitar colisiones frontales en cruces e intersecciones) | DAW (Alerta de conducción del conductor) | AVM (Sistema de visión periférica) | PDW (Sensores de parqueo) | Sensor de lluvia | Rack de techo | Pedales en aluminio | Iluminación interior LED",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Motor 3.5L V6 Smartstream con 268 hp de potencia y 331NM de torque",
+          "valor": true
+        },
+        {
+          "nombre": "ABS + EBD + ESC + TCS + HAC + TSA",
+          "valor": true
+        },
+        {
+          "nombre": "Rin 19” de lujo Bi-tono",
+          "valor": true
+        },
+        {
+          "nombre": "6 Airbags",
+          "valor": true
+        },
+        {
+          "nombre": "Columna de dirección ajustable en altura y profundidad",
+          "valor": true
+        },
+        {
+          "nombre": "EPB (Freno electrónico de parqueo) + Auto Hold",
+          "valor": true
+        },
+        {
+          "nombre": "Luces delanteras duales LED",
+          "valor": true
+        },
+        {
+          "nombre": "Luces de conducción diurna (DRL) LED",
+          "valor": true
+        },
+        {
+          "nombre": "Luces de posición LED",
+          "valor": true
+        },
+        {
+          "nombre": "Exploradoras LED",
+          "valor": true
+        },
+        {
+          "nombre": "Luces traseras LED",
+          "valor": true
+        },
+        {
+          "nombre": "Luces diurnas DRL LED",
+          "valor": true
+        },
+        {
+          "nombre": "Spoiler trasero con Stop en LED",
+          "valor": true
+        },
+        {
+          "nombre": "Control de luces automático (Auto light)",
+          "valor": true
+        },
+        {
+          "nombre": "Espejos con ajuste eléctrico, con direccionales, desempañador y abatibles eléctricamente",
+          "valor": true
+        },
+        {
+          "nombre": "Techo panorámico con accionamiento eléctrico de un solo toque y anti aprisionamiento",
+          "valor": true
+        },
+        {
+          "nombre": "Rack de techo",
+          "valor": true
+        },
+        {
+          "nombre": "Skid Plate delantero y trasero",
+          "valor": true
+        },
+        {
+          "nombre": "Tapicería en cuero",
+          "valor": true
+        },
+        {
+          "nombre": "Asientos de piloto y copiloto con ajuste eléctrico",
+          "valor": true
+        },
+        {
+          "nombre": "Sillas abatibles de Segunda fila abatible 60/40 con descansabrazos y portavasos",
+          "valor": true
+        },
+        {
+          "nombre": "Tercera fila de asientos abatibles 50/50 con portavasos laterales",
+          "valor": true
+        },
+        {
+          "nombre": "Elevavidrios eléctricos delanteros y traseros con Auto Up/Down y antiaprisionamiento",
+          "valor": true
+        },
+        {
+          "nombre": "Volante y palanca forrados en cuero",
+          "valor": true
+        },
+        {
+          "nombre": "Modos de manejo Comfort, Eco, Sport, Smart",
+          "valor": true
+        },
+        {
+          "nombre": "Modos de terreno (Nieve, Tierra, Arena)",
+          "valor": true
+        },
+        {
+          "nombre": "Paddle Shifters",
+          "valor": true
+        },
+        {
+          "nombre": "Aire acondicionado con climatizador bi-zona y desempañador automático",
+          "valor": true
+        },
+        {
+          "nombre": "Aire acondicionado para la segundo y tercera fila",
+          "valor": true
+        },
+        {
+          "nombre": "Puerta trasera con apertura eléctrica con sistema Power Tailgate",
+          "valor": true
+        },
+        {
+          "nombre": "Parasoles con espejo de vanidad e iluminación",
+          "valor": true
+        },
+        {
+          "nombre": "Botón de encendido con llave inteligente",
+          "valor": true
+        },
+        {
+          "nombre": "Inmovilizador",
+          "valor": true
+        },
+        {
+          "nombre": "Centro de entendimiento de 10.25” con clúster integrado",
+          "valor": true
+        },
+        {
+          "nombre": "Conectividad Car Play  y Android Auto",
+          "valor": true
+        },
+        {
+          "nombre": "Bluetooth con sistema manos libres",
+          "valor": true
+        },
+        {
+          "nombre": "Comando de voz en el volante",
+          "valor": true
+        },
+        {
+          "nombre": "4 parlantes + 2 tweeters",
+          "valor": true
+        },
+        {
+          "nombre": "Cargador tipo USB A 3x (1 delantero y 2 traseros )",
+          "valor": true
+        },
+        {
+          "nombre": "Controles de audio en el volante",
+          "valor": true
+        },
+        {
+          "nombre": "Espejo interior electro crómico",
+          "valor": true
+        },
+        {
+          "nombre": "SSC (Control Crucero Inteligente)",
+          "valor": true
+        },
+        {
+          "nombre": "BCW (Sistema de detección de punto ciego)",
+          "valor": true
+        },
+        {
+          "nombre": "LFA (Asistente en mantenimiento de carril)",
+          "valor": true
+        },
+        {
+          "nombre": "LKA (Asistente de mantenimiento de carril)",
+          "valor": true
+        },
+        {
+          "nombre": "TPMS (Sistema monitores de presión de llantas)",
+          "valor": true
+        },
+        {
+          "nombre": "FCA (Asistente para evitar colisiones frontales en cruces e intersecciones)",
+          "valor": true
+        },
+        {
+          "nombre": "DAW (Alerta de conducción del conductor)",
+          "valor": true
+        },
+        {
+          "nombre": "AVM (Sistema de visión periférica)",
+          "valor": true
+        },
+        {
+          "nombre": "PDW (Sensores de parqueo)",
+          "valor": true
+        },
+        {
+          "nombre": "Sensor de lluvia",
+          "valor": true
+        },
+        {
+          "nombre": "Rack de techo",
+          "valor": true
+        },
+        {
+          "nombre": "Pedales en aluminio",
+          "valor": true
+        },
+        {
+          "nombre": "Iluminación interior LED",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/nueva-sorento",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:08:05"
+    },
+    {
+      "id": "2367d34100",
+      "marca": "Kia",
+      "modelo": "Kia Carnival",
+      "version": "Zenith AT",
+      "precio": 277990000,
+      "segmento": "lujo",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": "True",
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Motor V6 de 3.5L con 268HP y 331Nm | Transmisión automática de 8 velocidades | 8 puestos | Modo salón ejecutivo | Sistema de seguridad Drive Wise con conducción semi-autónoma | Freno de parqueo eléctrico | Pantalla táctil de 8\" con cámara de reversa | Doble aire acondicionado de 3 zonas | 7 airbags | Luces LED | Doble sunroof | Rin 18\" doble tono | Espejos abatibles con direcciones LED | Rack de techo | Puertas traseras corredizas con apertura eléctrica por proximidad",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Motor V6 de 3.5L con 268HP y 331Nm",
+          "valor": true
+        },
+        {
+          "nombre": "Transmisión automática de 8 velocidades",
+          "valor": true
+        },
+        {
+          "nombre": "8 puestos",
+          "valor": true
+        },
+        {
+          "nombre": "Modo salón ejecutivo",
+          "valor": true
+        },
+        {
+          "nombre": "Sistema de seguridad Drive Wise con conducción semi-autónoma",
+          "valor": true
+        },
+        {
+          "nombre": "Freno de parqueo eléctrico",
+          "valor": true
+        },
+        {
+          "nombre": "Pantalla táctil de 8\" con cámara de reversa",
+          "valor": true
+        },
+        {
+          "nombre": "Doble aire acondicionado de 3 zonas",
+          "valor": true
+        },
+        {
+          "nombre": "7 airbags",
+          "valor": true
+        },
+        {
+          "nombre": "Luces LED",
+          "valor": true
+        },
+        {
+          "nombre": "Doble sunroof",
+          "valor": true
+        },
+        {
+          "nombre": "Rin 18\" doble tono",
+          "valor": true
+        },
+        {
+          "nombre": "Espejos abatibles con direcciones LED",
+          "valor": true
+        },
+        {
+          "nombre": "Rack de techo",
+          "valor": true
+        },
+        {
+          "nombre": "Puertas traseras corredizas con apertura eléctrica por proximidad",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/suv-carnival",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:08:17"
+    },
+    {
+      "id": "c155c758b4",
+      "marca": "Kia",
+      "modelo": "New Kia EV6",
+      "version": "GT Line",
+      "precio": 251990000,
+      "segmento": "lujo",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Motor eléctrico con 225 hp de potencia y 350 NM de torque | Autonomía aproximada de 528 km | Convertidor de carga  (V2L & V2V) | Palanca de cambios dial SBW (E-Shift) | Dirección Asistida Eléctricamente (R-MDPS) | Luces delanteras full LED MFR con luces diurnas LED | Luces traseras LED | DRL LED | Sunroof tipo Wide | Rines de aleación 20” Bi-tono | Manillas exteriores ocultas con apertura automática (Auto Flush) | Spoiler deportivo con antena tipo aleta tiburón | Puerta trasera inteligente | Espejos exteriores color negro piano con direccional integrada | Pantalla panorámica digital 12,3” con​ Apple CarPlay y Android Auto​ | Clúster de supervisión LCD 12,3” | Climatizador dual con touch switch | Luz de ambiente (Mood lamp) | Palanca de cambios Dial rotativo | Apertura de puertas con llave inteligente y botón de encendido | Volante Calefactable | i-Pedal (Sistema de frenado regenerativo inteligente 2.0) | DMS (Selector de modos de manejo) | Cargador inalámbrico refrigerado | Sillas delanteras tipo “Relaxion Premium” | Tapicería en cuero | Asientos delanteros eléctricos, ventilados y calefaccionados | Salidas de aire en el Pilar B con Gran espacio trasero​ | Cargadores USB Tipo C para la 2da fila | Conector interior V2L | 7 airbags | ABS (Sistema antibloqueo de freno)​ | ESC (Sistema de control electrónico de estabilidad)​ | TCS (Sistema de control de tracción)​ | HAC (Asistente de arranque en pendiente)​ | MCB (Freno de Colisión Múltiple)​ | VSM (Sistema de gestión de estabilidad) | TPMS HL (Sistema de monitoreo de presión de llantas) | FCA y FCW: Asistente y alerta para evitar colisiones frontales | LFA y LKA: Asistente de seguimiento y abandono de carril | SCC: Control crucero inteligente | AVM: Visión periférica cámara 360° | PCA: Prevención de Colisión en estacionamiento | PDW: Sensores de parqueo delanteros y traseros | BVM: Monitor de punto ciego | BCA: Prevención de Colisión en punto ciego",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Motor eléctrico con 225 hp de potencia y 350 NM de torque",
+          "valor": true
+        },
+        {
+          "nombre": "Autonomía aproximada de 528 km",
+          "valor": true
+        },
+        {
+          "nombre": "Convertidor de carga  (V2L & V2V)",
+          "valor": true
+        },
+        {
+          "nombre": "Palanca de cambios dial SBW (E-Shift)",
+          "valor": true
+        },
+        {
+          "nombre": "Dirección Asistida Eléctricamente (R-MDPS)",
+          "valor": true
+        },
+        {
+          "nombre": "Luces delanteras full LED MFR con luces diurnas LED",
+          "valor": true
+        },
+        {
+          "nombre": "Luces traseras LED",
+          "valor": true
+        },
+        {
+          "nombre": "DRL LED",
+          "valor": true
+        },
+        {
+          "nombre": "Sunroof tipo Wide",
+          "valor": true
+        },
+        {
+          "nombre": "Rines de aleación 20” Bi-tono",
+          "valor": true
+        },
+        {
+          "nombre": "Manillas exteriores ocultas con apertura automática (Auto Flush)",
+          "valor": true
+        },
+        {
+          "nombre": "Spoiler deportivo con antena tipo aleta tiburón",
+          "valor": true
+        },
+        {
+          "nombre": "Puerta trasera inteligente",
+          "valor": true
+        },
+        {
+          "nombre": "Espejos exteriores color negro piano con direccional integrada",
+          "valor": true
+        },
+        {
+          "nombre": "Pantalla panorámica digital 12,3” con​ Apple CarPlay y Android Auto​",
+          "valor": true
+        },
+        {
+          "nombre": "Clúster de supervisión LCD 12,3”",
+          "valor": true
+        },
+        {
+          "nombre": "Climatizador dual con touch switch",
+          "valor": true
+        },
+        {
+          "nombre": "Luz de ambiente (Mood lamp)",
+          "valor": true
+        },
+        {
+          "nombre": "Palanca de cambios Dial rotativo",
+          "valor": true
+        },
+        {
+          "nombre": "Apertura de puertas con llave inteligente y botón de encendido",
+          "valor": true
+        },
+        {
+          "nombre": "Volante Calefactable",
+          "valor": true
+        },
+        {
+          "nombre": "i-Pedal (Sistema de frenado regenerativo inteligente 2.0)",
+          "valor": true
+        },
+        {
+          "nombre": "DMS (Selector de modos de manejo)",
+          "valor": true
+        },
+        {
+          "nombre": "Cargador inalámbrico refrigerado",
+          "valor": true
+        },
+        {
+          "nombre": "Sillas delanteras tipo “Relaxion Premium”",
+          "valor": true
+        },
+        {
+          "nombre": "Tapicería en cuero",
+          "valor": true
+        },
+        {
+          "nombre": "Asientos delanteros eléctricos, ventilados y calefaccionados",
+          "valor": true
+        },
+        {
+          "nombre": "Salidas de aire en el Pilar B con Gran espacio trasero​",
+          "valor": true
+        },
+        {
+          "nombre": "Cargadores USB Tipo C para la 2da fila",
+          "valor": true
+        },
+        {
+          "nombre": "Conector interior V2L",
+          "valor": true
+        },
+        {
+          "nombre": "7 airbags",
+          "valor": true
+        },
+        {
+          "nombre": "ABS (Sistema antibloqueo de freno)​",
+          "valor": true
+        },
+        {
+          "nombre": "ESC (Sistema de control electrónico de estabilidad)​",
+          "valor": true
+        },
+        {
+          "nombre": "TCS (Sistema de control de tracción)​",
+          "valor": true
+        },
+        {
+          "nombre": "HAC (Asistente de arranque en pendiente)​",
+          "valor": true
+        },
+        {
+          "nombre": "MCB (Freno de Colisión Múltiple)​",
+          "valor": true
+        },
+        {
+          "nombre": "VSM (Sistema de gestión de estabilidad)",
+          "valor": true
+        },
+        {
+          "nombre": "TPMS HL (Sistema de monitoreo de presión de llantas)",
+          "valor": true
+        },
+        {
+          "nombre": "FCA y FCW",
+          "valor": "Asistente y alerta para evitar colisiones frontales"
+        },
+        {
+          "nombre": "LFA y LKA",
+          "valor": "Asistente de seguimiento y abandono de carril"
+        },
+        {
+          "nombre": "SCC",
+          "valor": "Control crucero inteligente"
+        },
+        {
+          "nombre": "AVM",
+          "valor": "Visión periférica cámara 360°"
+        },
+        {
+          "nombre": "PCA",
+          "valor": "Prevención de Colisión en estacionamiento"
+        },
+        {
+          "nombre": "PDW",
+          "valor": "Sensores de parqueo delanteros y traseros"
+        },
+        {
+          "nombre": "BVM",
+          "valor": "Monitor de punto ciego"
+        },
+        {
+          "nombre": "BCA",
+          "valor": "Prevención de Colisión en punto ciego"
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/ev6",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:08:27"
+    },
+    {
+      "id": "0a02fe4113",
+      "marca": "Kia",
+      "modelo": "Kia EV5",
+      "version": "Light +",
+      "precio": 189990000,
+      "segmento": "premium",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Autonomía de Hasta 555km | Batería Extendida | FCA (Asistente para evitar colisiones frontales en cruces e intersecciones)​ | LFA (Asistente de seguimiento de carril)​ | LKA (Asistente en abandono de carril)​ | SCC (Control Crucero Inteligente) con función Start/Stop​ | RVM (Monitor de vista trasera) con Guías dinámicas​ | VSM (Gestión de estabilidad del vehículo)​ | TPMS HL (Sistema de monitoreo de presión de llantas)​ | MCB (Freno de multi colisión)​ | Llave inteligente con botón de encendido​ | Asiento conductor con ajuste eléctrico y soporte lumbar​ | Tapicería  combinación  tela / cuero​ | Clúster integrado de 12.3\" tipo LCD TFT con control de iluminación​ | Cargador inalámbrico​ | Pantalla Táctil de 12,3\" Curvo integrado​ | Iluminación delantera y trasera LED​ | Manijas Exteriores con apertura táctil​",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Autonomía de Hasta 555km",
+          "valor": true
+        },
+        {
+          "nombre": "Batería Extendida",
+          "valor": true
+        },
+        {
+          "nombre": "FCA (Asistente para evitar colisiones frontales en cruces e intersecciones)​",
+          "valor": true
+        },
+        {
+          "nombre": "LFA (Asistente de seguimiento de carril)​",
+          "valor": true
+        },
+        {
+          "nombre": "LKA (Asistente en abandono de carril)​",
+          "valor": true
+        },
+        {
+          "nombre": "SCC (Control Crucero Inteligente) con función Start/Stop​",
+          "valor": true
+        },
+        {
+          "nombre": "RVM (Monitor de vista trasera) con Guías dinámicas​",
+          "valor": true
+        },
+        {
+          "nombre": "VSM (Gestión de estabilidad del vehículo)​",
+          "valor": true
+        },
+        {
+          "nombre": "TPMS HL (Sistema de monitoreo de presión de llantas)​",
+          "valor": true
+        },
+        {
+          "nombre": "MCB (Freno de multi colisión)​",
+          "valor": true
+        },
+        {
+          "nombre": "Llave inteligente con botón de encendido​",
+          "valor": true
+        },
+        {
+          "nombre": "Asiento conductor con ajuste eléctrico y soporte lumbar​",
+          "valor": true
+        },
+        {
+          "nombre": "Tapicería  combinación  tela / cuero​",
+          "valor": true
+        },
+        {
+          "nombre": "Clúster integrado de 12.3\" tipo LCD TFT con control de iluminación​",
+          "valor": true
+        },
+        {
+          "nombre": "Cargador inalámbrico​",
+          "valor": true
+        },
+        {
+          "nombre": "Pantalla Táctil de 12,3\" Curvo integrado​",
+          "valor": true
+        },
+        {
+          "nombre": "Iluminación delantera y trasera LED​",
+          "valor": true
+        },
+        {
+          "nombre": "Manijas Exteriores con apertura táctil​",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/ev5",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:08:37"
+    },
+    {
+      "id": "9e253b7747",
+      "marca": "Kia",
+      "modelo": "Kia EV9",
+      "version": "GT Line",
+      "precio": 391990000,
+      "segmento": "lujo",
+      "tipo": "otro",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "Rin 21 de lujo (285/45R21) | Manijas Exteriores tipo Auto Flush con apertura táctil | Roof Rack color negro | Luces completas con tecnología star map LED | Apertura baúl eléctrica y manos libres con función Power Tailgate | Sunroof dual de un solo toque con función anti aprisionamiento | DCM (Espejo electrocrómico de 9,6'' con opción cámara de visión trasera) | Apertura de puertas con llave inteligente con botón de encendido | Head-up Display (HUD) | Tapicería en cuero | Columna de dirección eléctrica ajustable en altura y profundidad con memoria en el asiento | Volante calefactable y en cuero | Asientos eléctricos conductor y pasajero con modo relajación y silla conductor tipo ergo-motion seat | Asientos eléctricos segunda fila tipo Capitán con modo relajación | Asiento conductor con ajuste eléctrico, soporte lumbar y memoria | Asiento pasajero con ajuste eléctrico y soporte lumbar | Sillas calefactables y ventiladas delanteras y traseras | Aire acondicionado frontal Automático con climatizador de bizona y desempañador | Aire acondicionado trasero Automático con climatizador | Iluminación ambiental personalizable de dos colores independientes | Cambio electrónico tipo columna SBW con botón de arranque integrado | Cluster de supervisión de 12,3\" LCD a Color | Centro de Entretenimiento con reconocimiento de Voz, botones flotantes en el millare y pantalla táctil 12,3’' | Sonido Premium Meridian 14 parlantes | Cargador Inalámbrico con refrigeración | Sensor de lluvia | Tapizado Interior de lujo tipo alcántara | 10 Airbag | ROA - Alerta de ocupante trasero con sensor | BCA - Prevención de Colisión en punto ciego | LKA - Asistente de mantenimiento de carril | LFA - Asistente seguimiento de carril | FCA - Asistente para evitar colisiones frontales en cruces e intersecciones | BCA - Prevención de Colisión en punto ciego | SEW - Alerta de salida segura | SEA - Asistente de salida segura | HBA - Asistente de luces altas | SVM - Cámara 360° | BVM - Monitor de punto ciego | TPMS - Sistema de monitoreo de presión de llantas | SSC (Control Crucero Inteligente) | DAW (Alerta de atención del conductor)",
+      "caracteristicas_detalladas": [
+        {
+          "nombre": "Rin 21 de lujo (285/45R21)",
+          "valor": true
+        },
+        {
+          "nombre": "Manijas Exteriores tipo Auto Flush con apertura táctil",
+          "valor": true
+        },
+        {
+          "nombre": "Roof Rack color negro",
+          "valor": true
+        },
+        {
+          "nombre": "Luces completas con tecnología star map LED",
+          "valor": true
+        },
+        {
+          "nombre": "Apertura baúl eléctrica y manos libres con función Power Tailgate",
+          "valor": true
+        },
+        {
+          "nombre": "Sunroof dual de un solo toque con función anti aprisionamiento",
+          "valor": true
+        },
+        {
+          "nombre": "DCM (Espejo electrocrómico de 9,6'' con opción cámara de visión trasera)",
+          "valor": true
+        },
+        {
+          "nombre": "Apertura de puertas con llave inteligente con botón de encendido",
+          "valor": true
+        },
+        {
+          "nombre": "Head-up Display (HUD)",
+          "valor": true
+        },
+        {
+          "nombre": "Tapicería en cuero",
+          "valor": true
+        },
+        {
+          "nombre": "Columna de dirección eléctrica ajustable en altura y profundidad con memoria en el asiento",
+          "valor": true
+        },
+        {
+          "nombre": "Volante calefactable y en cuero",
+          "valor": true
+        },
+        {
+          "nombre": "Asientos eléctricos conductor y pasajero con modo relajación y silla conductor tipo ergo-motion seat",
+          "valor": true
+        },
+        {
+          "nombre": "Asientos eléctricos segunda fila tipo Capitán con modo relajación",
+          "valor": true
+        },
+        {
+          "nombre": "Asiento conductor con ajuste eléctrico, soporte lumbar y memoria",
+          "valor": true
+        },
+        {
+          "nombre": "Asiento pasajero con ajuste eléctrico y soporte lumbar",
+          "valor": true
+        },
+        {
+          "nombre": "Sillas calefactables y ventiladas delanteras y traseras",
+          "valor": true
+        },
+        {
+          "nombre": "Aire acondicionado frontal Automático con climatizador de bizona y desempañador",
+          "valor": true
+        },
+        {
+          "nombre": "Aire acondicionado trasero Automático con climatizador",
+          "valor": true
+        },
+        {
+          "nombre": "Iluminación ambiental personalizable de dos colores independientes",
+          "valor": true
+        },
+        {
+          "nombre": "Cambio electrónico tipo columna SBW con botón de arranque integrado",
+          "valor": true
+        },
+        {
+          "nombre": "Cluster de supervisión de 12,3\" LCD a Color",
+          "valor": true
+        },
+        {
+          "nombre": "Centro de Entretenimiento con reconocimiento de Voz, botones flotantes en el millare y pantalla táctil 12,3’'",
+          "valor": true
+        },
+        {
+          "nombre": "Sonido Premium Meridian 14 parlantes",
+          "valor": true
+        },
+        {
+          "nombre": "Cargador Inalámbrico con refrigeración",
+          "valor": true
+        },
+        {
+          "nombre": "Sensor de lluvia",
+          "valor": true
+        },
+        {
+          "nombre": "Tapizado Interior de lujo tipo alcántara",
+          "valor": true
+        },
+        {
+          "nombre": "10 Airbag",
+          "valor": true
+        },
+        {
+          "nombre": "ROA - Alerta de ocupante trasero con sensor",
+          "valor": true
+        },
+        {
+          "nombre": "BCA - Prevención de Colisión en punto ciego",
+          "valor": true
+        },
+        {
+          "nombre": "LKA - Asistente de mantenimiento de carril",
+          "valor": true
+        },
+        {
+          "nombre": "LFA - Asistente seguimiento de carril",
+          "valor": true
+        },
+        {
+          "nombre": "FCA - Asistente para evitar colisiones frontales en cruces e intersecciones",
+          "valor": true
+        },
+        {
+          "nombre": "BCA - Prevención de Colisión en punto ciego",
+          "valor": true
+        },
+        {
+          "nombre": "SEW - Alerta de salida segura",
+          "valor": true
+        },
+        {
+          "nombre": "SEA - Asistente de salida segura",
+          "valor": true
+        },
+        {
+          "nombre": "HBA - Asistente de luces altas",
+          "valor": true
+        },
+        {
+          "nombre": "SVM - Cámara 360°",
+          "valor": true
+        },
+        {
+          "nombre": "BVM - Monitor de punto ciego",
+          "valor": true
+        },
+        {
+          "nombre": "TPMS - Sistema de monitoreo de presión de llantas",
+          "valor": true
+        },
+        {
+          "nombre": "SSC (Control Crucero Inteligente)",
+          "valor": true
+        },
+        {
+          "nombre": "DAW (Alerta de atención del conductor)",
+          "valor": true
+        }
+      ],
+      "url_fuente": "https://www.kia.com.co/nuestros-vehiculos/ev9",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:08:48"
+    },
+    {
+      "id": "beb9de0b31",
+      "marca": "Toyota",
+      "modelo": "Yaris",
+      "version": "YARIS XS HB 1.5 GASOLINA 4X2 CVT",
+      "precio": 87900000,
+      "segmento": "medio",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/yaris",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2022/01/FT-Yaris-HB.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:24"
+    },
+    {
+      "id": "fe4378afc2",
+      "marca": "Toyota",
+      "modelo": "Yaris",
+      "version": "YARIS SPORT HB 1.5 GASOLINA 4X2 CVT",
+      "precio": 99500000,
+      "segmento": "medio",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/yaris",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2022/01/FT-Yaris-HB.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:24"
+    },
+    {
+      "id": "8cdf50feac",
+      "marca": "Toyota",
+      "modelo": "COROLLA",
+      "version": "COROLLA SEG 1.8 HEV 4X2 E-CVT",
+      "precio": 134900000,
+      "segmento": "premium",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/corolla",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2020/08/FT-COROLLA-SEDAN-1.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:30"
+    },
+    {
+      "id": "3ae0869b1f",
+      "marca": "Toyota",
+      "modelo": "COROLLA",
+      "version": "COROLLA XLI 1.8 HEV 4X2 E-CVT",
+      "precio": 109500000,
+      "segmento": "medio",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/corolla",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2020/08/FT-COROLLA-SEDAN-1.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:30"
+    },
+    {
+      "id": "421eca0b7f",
+      "marca": "Toyota",
+      "modelo": "COROLLA",
+      "version": "COROLLA XEI 1.8 HEV 4X2 E-CVT",
+      "precio": 121900000,
+      "segmento": "premium",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/corolla",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2020/08/FT-COROLLA-SEDAN-1.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:30"
+    },
+    {
+      "id": "7e10693502",
+      "marca": "Toyota",
+      "modelo": "COROLLA CROSS",
+      "version": "COROLLA CROSS SEG 2.0 GASOLINA 4X2 CVT",
+      "precio": 148500000,
+      "segmento": "premium",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/corolla-cross",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2024/01/FT-COROLLA-CROSS-2026.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:35"
+    },
+    {
+      "id": "cf1850952b",
+      "marca": "Toyota",
+      "modelo": "COROLLA CROSS",
+      "version": "COROLLA CROSS XEI 1.8 HEV 4X2 E-CVT",
+      "precio": 135900000,
+      "segmento": "premium",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/corolla-cross",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2024/01/FT-COROLLA-CROSS-2026.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:35"
+    },
+    {
+      "id": "cc5371edd8",
+      "marca": "Toyota",
+      "modelo": "COROLLA CROSS",
+      "version": "COROLLA CROSS SEG 1.8 HEV 4X2 E-CVT",
+      "precio": 154900000,
+      "segmento": "premium",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/corolla-cross",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2024/01/FT-COROLLA-CROSS-2026.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:35"
+    },
+    {
+      "id": "b730bf2af7",
+      "marca": "Toyota",
+      "modelo": "Yaris Cross",
+      "version": "YARIS CROSS XLS 1.5 HEV 4X2 E-CVT",
+      "precio": 143900000,
+      "segmento": "premium",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/yaris-cross",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2022/01/FT-Toyota-Yaris-Cross-2024.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:39"
+    },
+    {
+      "id": "1251153a8d",
+      "marca": "Toyota",
+      "modelo": "Yaris Cross",
+      "version": "YARIS CROSS XS 1.5 HEV 4X2 E-CVT",
+      "precio": 131900000,
+      "segmento": "premium",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/yaris-cross",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2022/01/FT-Toyota-Yaris-Cross-2024.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:39"
+    },
+    {
+      "id": "fd3db86f59",
+      "marca": "Toyota",
+      "modelo": "LAND CRUISER PRADO",
+      "version": "LAND CRUISER PRADO TX 2.4 GASOLINA 4X4 AT",
+      "precio": 299000000,
+      "segmento": "lujo",
+      "tipo": "pickup",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/land-cruiser-prado",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2024/05/LANDCRUISER-PRADO.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:45"
+    },
+    {
+      "id": "a10ab12004",
+      "marca": "Toyota",
+      "modelo": "LAND CRUISER PRADO",
+      "version": "LAND CRUISER PRADO TX-L 2.4 GASOLINA 4X4 AT",
+      "precio": 375900000,
+      "segmento": "lujo",
+      "tipo": "pickup",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/land-cruiser-prado",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2024/05/LANDCRUISER-PRADO.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:45"
+    },
+    {
+      "id": "20c42f6f3a",
+      "marca": "Toyota",
+      "modelo": "LAND CRUISER PRADO",
+      "version": "LAND CRUISER PRADO TX 2.8 DIESEL 4X4 AT",
+      "precio": 329000000,
+      "segmento": "lujo",
+      "tipo": "pickup",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/land-cruiser-prado",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2024/05/LANDCRUISER-PRADO.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:45"
+    },
+    {
+      "id": "35e571cfc3",
+      "marca": "Toyota",
+      "modelo": "LAND CRUISER PRADO",
+      "version": "LAND CRUISER PRADO TX-L 2.8 DIESEL 4X4 AT",
+      "precio": 396900000,
+      "segmento": "lujo",
+      "tipo": "pickup",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/land-cruiser-prado",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2024/05/LANDCRUISER-PRADO.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:45"
+    },
+    {
+      "id": "eb17a2d195",
+      "marca": "Toyota",
+      "modelo": "LAND CRUISER PRADO",
+      "version": "LAND CRUISER PRADO WX 2.8 DIESEL 4X4 AT",
+      "precio": 499900000,
+      "segmento": "lujo",
+      "tipo": "pickup",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/land-cruiser-prado",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2024/05/LANDCRUISER-PRADO.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:45"
+    },
+    {
+      "id": "7f3764023c",
+      "marca": "Toyota",
+      "modelo": "LAND CRUISER PRADO",
+      "version": "LAND CRUISERPRADO VX 2.8 DIESEL 4X4 AT",
+      "precio": 509900000,
+      "segmento": "lujo",
+      "tipo": "pickup",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/land-cruiser-prado",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2024/05/LANDCRUISER-PRADO.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:45"
+    },
+    {
+      "id": "8780a59538",
+      "marca": "Toyota",
+      "modelo": "LAND CRUISER 300",
+      "version": "LAND CRUISER 300 ZX 3.4 GASOLINA 4X4 AT",
+      "precio": 613500000,
+      "segmento": "lujo",
+      "tipo": "pickup",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/land-cruiser-300",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2021/08/FT-Land-Cruiser-300-2025.pdf",
+      "fecha_extraccion": "2025-06-23 19:09:53"
+    },
+    {
+      "id": "7013e63346",
+      "marca": "Toyota",
+      "modelo": "TUNDRA",
+      "version": "Tundra",
+      "precio": 432000000,
+      "segmento": "lujo",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/tundra",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2023/10/FT_Tundra.pdf",
+      "fecha_extraccion": "2025-06-23 19:10:18"
+    },
+    {
+      "id": "877544a17e",
+      "marca": "Toyota",
+      "modelo": "Fortuner",
+      "version": "FORTUNER SRV 2.8 DIESEL 4X2 AT",
+      "precio": 281500000,
+      "segmento": "lujo",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/fortuner",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2025/01/FT-FORTUNER.pdf",
+      "fecha_extraccion": "2025-06-23 19:10:23"
+    },
+    {
+      "id": "f322233c4e",
+      "marca": "Toyota",
+      "modelo": "Fortuner",
+      "version": "FORTUNER SRV 2.7 GAS 4X2 AT",
+      "precio": 243500000,
+      "segmento": "lujo",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/fortuner",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2025/01/FT-FORTUNER.pdf",
+      "fecha_extraccion": "2025-06-23 19:10:23"
+    },
+    {
+      "id": "1023f4cd03",
+      "marca": "Toyota",
+      "modelo": "Fortuner",
+      "version": "FORTUNER SRV 2.8 DIESEL 4X4 AT",
+      "precio": 322500000,
+      "segmento": "lujo",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/fortuner",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2025/01/FT-FORTUNER.pdf",
+      "fecha_extraccion": "2025-06-23 19:10:23"
+    },
+    {
+      "id": "e95d13fd06",
+      "marca": "Toyota",
+      "modelo": "Fortuner",
+      "version": "FORTUNER SR 2.8 DIESEL 4X2 AT",
+      "precio": 239900000,
+      "segmento": "lujo",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/fortuner",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2025/01/FT-FORTUNER.pdf",
+      "fecha_extraccion": "2025-06-23 19:10:23"
+    },
+    {
+      "id": "7d20701044",
+      "marca": "Toyota",
+      "modelo": "Fortuner",
+      "version": "FORTUNER SR 2.8 DIESEL 4X4 AT",
+      "precio": 284500000,
+      "segmento": "lujo",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.toyota.com.co/vehiculo/fortuner",
+      "url_ficha_tecnica": "https://www.toyota.com.co/wp-content/uploads/2025/01/FT-FORTUNER.pdf",
+      "fecha_extraccion": "2025-06-23 19:10:23"
+    },
+    {
+      "id": "e8fc4861fe",
+      "marca": "Renault",
+      "modelo": "Duster E Tech",
+      "version": "Techno",
+      "precio": 12599000000,
+      "segmento": "lujo",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.renault.com.co/hibridos/duster-e-tech/versiones-y-precios.html",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:16:49"
+    },
+    {
+      "id": "4284ec4784",
+      "marca": "Renault",
+      "modelo": "Kwid",
+      "version": "Intens",
+      "precio": 5599000000,
+      "segmento": "lujo",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.renault.com.co/vehiculos/kwid/versiones-y-precios.html",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:16:58"
+    },
+    {
+      "id": "9e416ce485",
+      "marca": "Renault",
+      "modelo": "Kwid",
+      "version": "Outsider",
+      "precio": 5999000000,
+      "segmento": "lujo",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.renault.com.co/vehiculos/kwid/versiones-y-precios.html",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:17:00"
+    },
+    {
+      "id": "14121c70b2",
+      "marca": "Renault",
+      "modelo": "Oroch",
+      "version": "Oroch Cargo 4x4",
+      "precio": 10479000000,
+      "segmento": "lujo",
+      "tipo": "pickup",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.renault.com.co/vehiculos/oroch/versiones-y-precios.html",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:17:51"
+    },
+    {
+      "id": "511f82e763",
+      "marca": "Renault",
+      "modelo": "Logan",
+      "version": "Life+",
+      "precio": 6799000000,
+      "segmento": "lujo",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.renault.com.co/vehiculos/logan/versiones-y-precios.html",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:20:01"
+    },
+    {
+      "id": "d2493067e1",
+      "marca": "Mazda",
+      "modelo": "MAZDA 2 SPORT",
+      "version": "Modelo Base",
+      "precio": 82750000,
+      "segmento": "medio",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.mazda.com.co/link/25a9b5b849954862a33ede5b69f3e5ce.aspx",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:21:11"
+    },
+    {
+      "id": "4a4367263e",
+      "marca": "Mazda",
+      "modelo": "MAZDA 2 SEDÁN",
+      "version": "Modelo Base",
+      "precio": 83950000,
+      "segmento": "medio",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.mazda.com.co/link/8fbb1d6218fd40c9bdd4440a0d791130.aspx",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:21:11"
+    },
+    {
+      "id": "c17608a170",
+      "marca": "Mazda",
+      "modelo": "MAZDA 3",
+      "version": "Modelo Base",
+      "precio": 114350000,
+      "segmento": "medio",
+      "tipo": "automovil",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.mazda.com.co/link/577cdb3323b14f9a972ad05c65935260.aspx",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:21:11"
+    },
+    {
+      "id": "bd14db631f",
+      "marca": "Mazda",
+      "modelo": "MAZDA CX-30",
+      "version": "Modelo Base",
+      "precio": 112600000,
+      "segmento": "medio",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.mazda.com.co/link/442245594efc4786bf42959015f408d1.aspx",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:21:11"
+    },
+    {
+      "id": "9bc3c13209",
+      "marca": "Mazda",
+      "modelo": "MAZDA CX-5",
+      "version": "Modelo Base",
+      "precio": 140200000,
+      "segmento": "premium",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.mazda.com.co/link/00cf13b393274bdf98fabcc27203446e.aspx",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:21:11"
+    },
+    {
+      "id": "a373990335",
+      "marca": "Mazda",
+      "modelo": "MAZDA CX-50",
+      "version": "Modelo Base",
+      "precio": 165850000,
+      "segmento": "premium",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.mazda.com.co/link/ca166efb2a4d43ed9c507b0fba98e1e6.aspx",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:21:11"
+    },
+    {
+      "id": "e3bf6a927d",
+      "marca": "Mazda",
+      "modelo": "MAZDA CX-60 MHEV",
+      "version": "Modelo Base",
+      "precio": 230350000,
+      "segmento": "lujo",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.mazda.com.co/link/1cea1b1ed33143ba9b89fbd0121efd71.aspx",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:21:11"
+    },
+    {
+      "id": "c9a739a898",
+      "marca": "Mazda",
+      "modelo": "MAZDA CX-90 MHEV",
+      "version": "Modelo Base",
+      "precio": 262350000,
+      "segmento": "lujo",
+      "tipo": "suv",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.mazda.com.co/link/a8249cdb380943768e2d74ccc242bef8.aspx",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:21:11"
+    },
+    {
+      "id": "0275d1c3e5",
+      "marca": "Mazda",
+      "modelo": "MAZDA 3 MHEV",
+      "version": "Modelo Base",
+      "precio": 114350000,
+      "segmento": "medio",
+      "tipo": "hibrido",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.mazda.com.co/link/577cdb3323b14f9a972ad05c65935260.aspx",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:21:11"
+    },
+    {
+      "id": "6e1afebe2d",
+      "marca": "Mazda",
+      "modelo": "MAZDA CX-30 MHEV",
+      "version": "Modelo Base",
+      "precio": 119350000,
+      "segmento": "medio",
+      "tipo": "hibrido",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.mazda.com.co/link/442245594efc4786bf42959015f408d1.aspx",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:21:11"
+    },
+    {
+      "id": "3161ace4dd",
+      "marca": "Mazda",
+      "modelo": "MAZDA MX-5",
+      "version": "Modelo Base",
+      "precio": 182650000,
+      "segmento": "premium",
+      "tipo": "deportivo",
+      "anio_modelo": 2025,
+      "transmision": null,
+      "combustible": null,
+      "potencia_hp": null,
+      "caracteristicas": "",
+      "caracteristicas_detalladas": [],
+      "url_fuente": "https://www.mazda.com.co/link/cbf46719172f47868fbcac2b72044ed9.aspx",
+      "url_ficha_tecnica": null,
+      "fecha_extraccion": "2025-06-23 19:21:11"
+    }
+  ]
+}

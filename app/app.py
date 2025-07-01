@@ -2,9 +2,15 @@
 
 import streamlit as st
 import pandas as pd
+import sys
 from pathlib import Path
+
+# Add project root to path for absolute imports
+project_root = Path(__file__).parent.parent
+sys.path.insert(0, str(project_root))
+
 from src.analysis.financial_models import ModeloFinancieroVehicular 
-from ui_components import sidebar_input_widgets, display_recommendation_card, initialize_session_state
+from app.ui_components import sidebar_input_widgets, display_recommendation_card, initialize_session_state
 
 # --- CONFIGURACIÓN DE LA PÁGINA ---
 st.set_page_config(

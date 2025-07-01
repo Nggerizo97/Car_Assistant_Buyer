@@ -1,8 +1,8 @@
-playwright
-beautifulsoup4
-pandas
-lxml
-python-dotenv
-numpy
-numpy_financial
-streamlit
+playwright>=1.53.0
+beautifulsoup4>=4.13.0
+pandas>=2.3.0
+lxml>=6.0.0
+python-dotenv>=1.1.0
+numpy>=2.3.0
+numpy_financial>=1.0.0
+streamlit>=1.46.0

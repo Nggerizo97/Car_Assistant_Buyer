@@ -4,7 +4,7 @@ import streamlit as st
 import pandas as pd
 from pathlib import Path
 from src.analysis.financial_models import ModeloFinancieroVehicular 
-from ui_components import sidebar_input_widgets, display_recommendation_card, initialize_session_state
+from app.ui_components import sidebar_input_widgets, display_recommendation_card, initialize_session_state
 
 # --- CONFIGURACIÓN DE LA PÁGINA ---
 st.set_page_config(

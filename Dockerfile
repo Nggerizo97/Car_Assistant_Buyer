@@ -13,9 +13,8 @@ COPY requirements.txt .
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Install Playwright and its dependencies
-RUN pip install playwright && playwright install
-RUN pip install streamlit
+# Install Playwright browser dependencies
+RUN playwright install
 # Copy the entire project into the container
 COPY . .
 

@@ -4,5 +4,5 @@ pandas
 lxml
 python-dotenv
 numpy
-numpy_financial
+numpy-financial
 streamlit

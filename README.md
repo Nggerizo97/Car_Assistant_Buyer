@@ -48,7 +48,7 @@ Car Assistant Buyer is a Python-based project designed to scrape car data from v
 
 6. Run the Streamlit app:
    ```bash
-   python -m streamlit run app/app.py  
+   python -m streamlit run app/main.py  
    ```
 
 ### Docker Setup

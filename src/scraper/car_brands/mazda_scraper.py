@@ -1,69 +1,171 @@
 # src/scraper/car_brands/mazda_scraper.py
 
-from bs4 import BeautifulSoup
-from datetime import datetime
+import json
 import re
 import asyncio
-from .base_scraper import BaseScraper
+from datetime import datetime
+from playwright.async_api import Page
+from .base_scraper import BaseScraper, parse_html
+
 
 class MazdaScraper(BaseScraper):
     def __init__(self):
         super().__init__('mazda')
         self.base_url = 'https://www.mazda.com.co'
-        # La página principal ya contiene toda la información que necesitamos para empezar.
-        self.start_url = 'https://www.mazda.com.co/'
-        
+        self.start_url = 'https://www.mazda.com.co/vehiculos/'
+
     async def scrape(self, page) -> list:
         """
-        Para Mazda, toda la información inicial está en una sola página.
-        No necesitamos navegar a múltiples URLs de categorías.
+        Para Mazda, la página /vehiculos/ contiene datos JSON embebidos
+        en window.mxp.data con toda la información de vehículos (nombres,
+        precios, URLs, categorías). Extraemos directamente de esa estructura.
         """
         print(f"Iniciando scraping para Mazda desde: {self.start_url}")
-        
-        await page.goto(self.start_url, timeout=60000)
-        
-        # Esperamos a que las "tarjetas" de los vehículos estén presentes en la página.
-        card_selector = "div.vehiculo"
-        await page.wait_for_selector(card_selector, timeout=30000)
-        
-        html = await page.content()
-        soup = BeautifulSoup(html, 'lxml')
-        
-        all_models = []
-        vehicle_cards = soup.select(card_selector)
-        print(f"  -> Encontradas {len(vehicle_cards)} tarjetas de vehículos en la página.")
 
-        for card in vehicle_cards:
+        await page.goto(self.start_url, timeout=60000, wait_until='domcontentloaded')
+
+        # Extraemos el HTML y buscamos los datos embebidos en scripts
+        html = await page.content()
+        soup = parse_html(html)
+
+        all_models = []
+
+        # Estrategia 1: Extraer de window.mxp.data (datos JSON embebidos en <script>)
+        all_models = self._extract_from_mxp_data(html)
+
+        if all_models:
+            print(f"  -> Extraídos {len(all_models)} vehículos desde datos embebidos (mxp.data).")
+        else:
+            # Estrategia 2: Fallback — intentar parsear datos de showroom del DOM
+            print(f"  -> No se encontraron datos en mxp.data. Intentando DOM...")
+            all_models = self._extract_from_dom(soup)
+
+        print(f"Scraping completado para Mazda. Total de modelos encontrados: {len(all_models)}")
+        return all_models
+
+    def _extract_from_mxp_data(self, html: str) -> list:
+        """
+        Extrae datos de vehículos del JSON embebido en window.mxp.data.
+        La estructura contiene navegación con 'primaryNav.links' que tiene
+        la lista de vehículos con precios.
+        """
+        all_models = []
+
+        # Buscar todos los bloques JSON pusheados a mxp.data
+        pattern = r'window\.mxp\.data\.push\(JSON\.parse\(\'(.*?)\'\)\)'
+        matches = re.findall(pattern, html, re.DOTALL)
+
+        for match in matches:
             try:
-                model_name = card.find('h2', class_='uxTituloAutomovil').get_text(strip=True)
-                price_text = card.find('p', class_='precio').get_text(strip=True)
+                # El JSON contiene escapes Unicode como \\u003c
+                json_str = match.replace("\\'", "'")
+                data = json.loads(json_str)
+            except (json.JSONDecodeError, TypeError):
+                continue
+
+            # Navegar la estructura para encontrar las listas de vehículos
+            props = data.get('props', {})
+
+            # Buscar en primaryNav.links (navegación del header)
+            primary_nav = props.get('primaryNav', {})
+            nav_links = primary_nav.get('links', [])
+
+            for link in nav_links:
+                if link.get('type') != 'car':
+                    continue
+
+                model_name = link.get('text', link.get('model', '')).strip()
+                if not model_name:
+                    continue
+
+                # Obtener precio
+                new_price = link.get('newPrice', {})
+                price = 0
+                if new_price:
+                    raw_price = new_price.get('rawPrice', 0)
+                    if raw_price:
+                        price = int(float(raw_price))
+
+                if price == 0:
+                    raw = link.get('price', 0)
+                    if raw:
+                        price = int(float(raw))
+
+                if price == 0:
+                    continue
+
+                detail_url = link.get('link', '')
+                if detail_url and not detail_url.startswith('http'):
+                    detail_url = f"{self.base_url}{detail_url}"
+
+                # Obtener categoría de sub-links
+                category = 'No especificado'
+                sub_links = link.get('links', [])
+                if sub_links:
+                    first_sub = sub_links[0]
+                    cat = first_sub.get('category', '')
+                    if cat:
+                        category = cat
+
+                all_models.append({
+                    'marca': 'Mazda',
+                    'modelo': model_name.upper(),
+                    'version': 'Desde',
+                    'precio': price,
+                    'tipo': category if category != 'No especificado' else self._classify(model_name),
+                    'url_fuente': detail_url,
+                    'fecha_extraccion': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                })
+
+        return all_models
+
+    def _extract_from_dom(self, soup) -> list:
+        """Fallback: intenta extraer datos del DOM si mxp.data no funciona."""
+        all_models = []
+
+        # Buscar tarjetas de showroom
+        cards = soup.select('.showroom-card, .vehicle-card, [data-model-name]')
+        for card in cards:
+            try:
+                name_el = card.find(['h2', 'h3', '.model-name'])
+                price_el = card.find(['.price', '.precio'])
+
+                if not name_el or not price_el:
+                    continue
+
+                model_name = name_el.get_text(strip=True)
+                price_text = price_el.get_text(strip=True)
                 price = int(re.sub(r'[^\d]', '', price_text)) if price_text else 0
 
-                # Obtenemos el link a la página de detalle
-                link_tag = card.find('a', href=True)
-                detail_url = f"{self.base_url}{link_tag['href']}" if link_tag else 'No encontrado'
-                
-                # Determinamos la categoría encontrando el 'div' padre con la clase 'categoria'
-                category_div = card.find_parent('div', class_='categoria')
-                # La segunda clase del div (ej. 'suvs', 'hibridos') es el tipo
-                vehicle_type = category_div['class'][1].replace('-', ' ').title() if category_div and len(category_div['class']) > 1 else 'No especificado'
-
-                if not model_name or price == 0:
+                if price == 0:
                     continue
+
+                link_tag = card.find('a', href=True)
+                detail_url = f"{self.base_url}{link_tag['href']}" if link_tag else 'N/A'
 
                 all_models.append({
                     'marca': 'Mazda',
                     'modelo': model_name,
-                    'version': 'Desde', # Indicamos que es un precio base
+                    'version': 'Desde',
                     'precio': price,
-                    'anio_modelo': 'N/A', # Esta info no está en la tarjeta principal
-                    'tipo': vehicle_type,
-                    'url_ficha_tecnica': 'N/A', # Esta info está en la página de detalle
-                    'url_fuente': detail_url, # Guardamos el link para un posible scraper de Nivel 2
+                    'tipo': self._classify(model_name),
+                    'url_fuente': detail_url,
                     'fecha_extraccion': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 })
             except Exception as e:
-                print(f"      - Error procesando una tarjeta de Mazda: {e}")
-        
-        print(f"Scraping completado para Mazda. Total de modelos encontrados: {len(all_models)}")
+                print(f"      - Error procesando tarjeta de Mazda: {e}")
+
         return all_models
+
+    def _classify(self, model_name: str) -> str:
+        name = model_name.lower()
+        if any(x in name for x in ['cx-', 'cx ']):
+            return 'SUV'
+        elif any(x in name for x in ['bt-50', 'bt50']):
+            return 'Pick-Up'
+        elif any(x in name for x in ['mazda2', 'mazda 2', 'mazda3', 'mazda 3', 'mazda6', 'mazda 6']):
+            return 'Automóvil'
+        elif 'mx' in name:
+            return 'Deportivo'
+        else:
+            return 'Automóvil'

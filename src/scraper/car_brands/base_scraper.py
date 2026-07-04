@@ -7,6 +7,13 @@ from typing import Dict, List
 import asyncio
 import random
 
+def parse_html(html: str) -> BeautifulSoup:
+    """Parse HTML with lxml if available, otherwise fall back to html.parser."""
+    try:
+        return BeautifulSoup(html, 'lxml')
+    except Exception:
+        return BeautifulSoup(html, 'html.parser')
+
 class BaseScraper:
     def __init__(self, brand: str):
         self.brand = brand.lower()
@@ -34,7 +41,7 @@ class BaseScraper:
             
             # Obtener HTML y parsear
             html = await page.content()
-            soup = BeautifulSoup(html, 'lxml')
+            soup = parse_html(html)
             
             # Extraer datos de los modelos
             self.models = await self.extract_model_data(soup)
